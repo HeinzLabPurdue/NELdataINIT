@@ -1,4 +1,6 @@
 function x = loadPicMAT(picNum)     % Loads mat file
+% Created: Caitlin Heffner
+% Modified: M. Heinz 
 picSearchString = sprintf('p%04d*.mat', picNum);
 picMatFile = dir(picSearchString);
 if (~isempty(picMatFile))
