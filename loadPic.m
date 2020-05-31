@@ -1,4 +1,5 @@
 function x = loadPic(picNum)     % Load picture
+% from original NEL
 picSearchString = sprintf('p%04d*.m', picNum);
 picMFile = dir(picSearchString);
 if (~isempty(picMFile))
